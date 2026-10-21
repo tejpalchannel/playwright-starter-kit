@@ -1,0 +1,16 @@
+{
+  "name": "playwright-starter-kit",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript starter project with 3 passing tests on a practice site",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
